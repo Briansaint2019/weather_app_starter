@@ -1,0 +1,42 @@
+body{
+padding: 0;
+margin: 0;
+text-align: center;
+/*change1*/
+background-image: url(https://cdn.pixabay.com/photo/2017/01/18/15/51/paper-1990111_1280.jpg);
+/*change2*/
+background-repeat: no-repeat;
+/*change3*/
+background-size: cover;
+}
+
+body *{
+margin-bottom: 5vh;
+
+}
+
+.icon{
+min-width: 300px;
+max-width: 300px;
+
+}
+
+.convert{
+    /*change4*/
+    font-size:13px;
+    /*change5*/
+    font-weight:bold;
+    /*change6*/
+    padding:6px 12px;
+    /*change7*/
+    text-decoration:none;
+   /*change8*/
+    color:#f9fbff;
+    /*change9*/
+    border-radius:5px;
+	display:inline-block;
+    /*change10*/
+    background-color:#768d8791;
+    box-shadow:inset 0px 1px 0px 0px #91b8b3;
+    text-align: center;
+}
